@@ -12,7 +12,7 @@ inputs:
   src: ./bin/publish/
   handler: index.main_handler
   runtime: CustomRuntime
-  region: ap-guangzhou # 函数所在区域，默认广州
+  region: ap-beijing # 函数所在区域，默认广州
   description: This is a function in ${app} application.
   memorySize: 128
   initTimeout: 30
@@ -40,4 +40,4 @@ inputs:
           argument: UnfollowBatched
   environment:
     variables: # 根据自己的需要修改
-      Ray_BiliBiliCookies__1: 123 # cookie，必填
+      Ray_BiliBiliCookies__1: innersign=0; buvid3=AF1643F3-CC74-8B51-DBCE-0F9208BC90F805506infoc; i-wanna-go-back=-1; b_ut=7; b_lsid=E674C1104_1813402C4F5; _uuid=8110DBCB9-A3FC-E6BD-682B-161089EE9810DA05697infoc; buvid4=662807CD-FA7C-845B-1F4C-B315E83713C206997-022060521-SV44yNkYjlHBYiewsCcAjH7aCtqA1GhXEmL+WTUsvnpUZ3ujnwwqtQ==; b_timer={"ffp":{"333.1007.fp.risk_AF1643F3":"1813402CD37","333.42.fp.risk_AF1643F3":"1813402F74D"}}; fingerprint=0d230a1f6f98590de2a7a19f9952a47e; buvid_fp=AF1643F3-CC74-8B51-DBCE-0F9208BC90F805506infoc; buvid_fp_plain=undefined; SESSDATA=86608d54,1669987052,09f5b*61; bili_jct=6282cb652dffdfd5485041b837314eef; DedeUserID=1738356600; DedeUserID__ckMd5=4276ca9529b9448b; sid=83l6yjni; CURRENT_BLACKGAP=0; CURRENT_FNVAL=80
